@@ -1,0 +1,33 @@
+.career-btn {
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  border-radius: 8px;
+font-weight: 600;
+  background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+  display: inline-flex;
+  padding: 19px 28px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.career-btn:hover {
+  background: var(--Linear, linear-gradient(90deg, #7e8ffece 0%, #9873ffb8 100%));
+}
+
+.career-text:hover {
+  background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.active{
+  background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.career-bg{
+  background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+}
