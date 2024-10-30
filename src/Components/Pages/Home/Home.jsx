@@ -1,9 +1,12 @@
 import React from 'react';
+import JobCategory from './JobCategory/JobCategory';
+import FeatureJob from './FeatureJob/FeatureJob';
 
 const Home = () => {
     return (
         <div>
-            this is home
+            <JobCategory></JobCategory>
+            <FeatureJob></FeatureJob>
         </div>
     );
 };

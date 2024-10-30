@@ -10,7 +10,9 @@ const MainLayout = () => {
            <div className='career-bg'>
            <Nav></Nav>
            </div>
-            <Outlet></Outlet>
+           <div className='max-w-[1320px] mx-auto'>
+           <Outlet></Outlet>
+           </div>
             <Footer></Footer>
         </div>
     );
