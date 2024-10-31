@@ -6,11 +6,11 @@ import Nav from '../Header/Nav';
 
 const MainLayout = () => {
     return (
-        <div>
-           <div className='career-bg'>
+        <div >
+           <div className='relative'>
            <Nav></Nav>
            </div>
-           <div className='max-w-[1320px] mx-auto'>
+           <div className=''>
            <Outlet></Outlet>
            </div>
             <Footer></Footer>
